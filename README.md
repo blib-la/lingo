@@ -1,8 +1,11 @@
 # Lingo
 
-> give your LLM superpowers
+> give your LLM superpowers  
+> Lingo is the perfect syntax for [Hyv](https://github.com/failfa-st/hyv)
 
-Lingo is the perfect syntax for [Hyv](https://github.com/failfa-st/hyv)
+
+[![Discord](https://img.shields.io/discord/1091306623819059300?color=7289da&label=Discord&logo=discord&logoColor=fff&style=for-the-badge)](https://discord.com/invite/m3TBB9XEkb)
+
 
 Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs.
 

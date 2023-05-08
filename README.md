@@ -1,5 +1,9 @@
 # Lingo
 
+> give your LLM superpowers
+
+Lingo is the perfect syntax for [Hyv](https://github.com/failfa-st/hyv)
+
 Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs.
 
 Lingo's syntax is highly extensible, allowing for the integration of new values and functions that adhere to its foundational principles. This flexibility ensures that Lingo remains adaptable to a wide range of tasks and use cases, making it an invaluable tool for working with LLMs.

@@ -2,6 +2,8 @@
   
 [![Discord](https://img.shields.io/discord/1091306623819059300?color=7289da&label=Discord&logo=discord&logoColor=fff&style=for-the-badge)](https://discord.com/invite/m3TBB9XEkb)
 
+> TLDR;  
+> Lingo is a pseudo language designed to enhance Large Language Models (LLMs) like GPT-3 and GPT-4, providing a versatile syntax to guide more accurate outputs. Developed for the Hyv software development library, Lingo facilitates AI collaboration and efficient task management. Lingo's expressive syntax and extensible framework improve output quality and adaptability in various use cases.
 
 Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs. Lingo has been developed as a perfect syntax for [Hyv](https://github.com/failfa-st/hyv), a modular software development library focused on AI collaboration. Hyv streamlines the development process by breaking complex tasks into manageable pieces and offers an adaptable design that works with various technologies. By using Lingo with Hyv, developers can harness the full potential of AI-assisted software development, fostering efficient task management and a paradigm shift in the field.
 

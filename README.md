@@ -12,6 +12,18 @@ Large Language Models (LLMs) are a type of artificial intelligence model, specif
 
 Lingo's syntax is highly extensible, allowing for the integration of new values and functions that adhere to its foundational principles. This flexibility ensures that Lingo remains adaptable to a wide range of tasks and use cases, making it an invaluable tool for working with LLMs.
 
+
+## Key Features
+
+-   **Expressive syntax**: Lingo's syntax is designed to be both concise and expressive, making it easy for users to define their requirements and for LLMs to interpret them accurately.
+    
+-   **Extensible and adaptable framework**: Lingo's syntax can be easily extended to incorporate new values and functions, allowing it to adapt to a wide range of tasks and use cases. This extensibility ensures that Lingo remains versatile and relevant as LLM technology advances and user requirements evolve.
+    
+-   **Improved output quality**: By providing LLMs with clear expectations and guidance, Lingo helps them generate more relevant and accurate outputs, reducing the need for manual fine-tuning or extensive user input.
+
+By harnessing the power of Lingo, users can effectively guide LLMs to produce outputs that better align with their goals, while reducing the amount of manual intervention required. The extensible nature of Lingo's syntax ensures that it remains a valuable and relevant tool for working with LLMs, both now and in the future.
+
+
 **Try it yourself**:
 
 ```
@@ -24,16 +36,6 @@ random(<=3{{city}}):json
 ```
 
 ![Screenshot 2023-05-08 at 17 28 26](https://user-images.githubusercontent.com/1148334/236865232-259fac97-e558-4ff5-9b60-f00da94b2841.png)
-
-## Key Features
-
--   **Expressive syntax**: Lingo's syntax is designed to be both concise and expressive, making it easy for users to define their requirements and for LLMs to interpret them accurately.
-    
--   **Extensible and adaptable framework**: Lingo's syntax can be easily extended to incorporate new values and functions, allowing it to adapt to a wide range of tasks and use cases. This extensibility ensures that Lingo remains versatile and relevant as LLM technology advances and user requirements evolve.
-    
--   **Improved output quality**: By providing LLMs with clear expectations and guidance, Lingo helps them generate more relevant and accurate outputs, reducing the need for manual fine-tuning or extensive user input.
-
-By harnessing the power of Lingo, users can effectively guide LLMs to produce outputs that better align with their goals, while reducing the amount of manual intervention required. The extensible nature of Lingo's syntax ensures that it remains a valuable and relevant tool for working with LLMs, both now and in the future.
 
 ## Values
 

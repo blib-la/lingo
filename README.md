@@ -145,7 +145,7 @@ random(<=3{{city}}):json
     
 -   `10`: An exact value of 10.
     
--   `["string"]`: An array containing a single string element.
+-   `["string"]`: An array of strings.
 
 -   `"string[] *~10"`: An array of strings with an approximate length of 10 elements.
     

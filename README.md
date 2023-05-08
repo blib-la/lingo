@@ -106,11 +106,15 @@ By harnessing the power of Lingo, users can effectively guide LLMs to produce ou
 
 ## Typing values
 
--   `key: "boolean"`: A value of the boolean data type, which can be either `true` or `false`.
+-   `"boolean"`: A value of the boolean data type, which can be either `true` or `false`.
     
--   `key: "string"`: A value of the string data type, which can consist of any combination of characters.
+-   `"string"`: A value of the string data type, which can consist of any combination of characters.
     
--   `key: "number"`: A value of the number data type, which can be any numerical value, including integers and floating-point numbers.
+-   `"number"`: A value of the number data type, which can be any numerical value, including integers and floating-point numbers.
+
+-   `"int"`: A value of the integer data type, which can be any whole number, including positive, negative, and zero values.
+
+-   `"float"`: A value of the floating-point data type, which can be any real number, including integers, decimal values, and values in scientific notation.
 
 -   `"one word"`: A value that should be a single word.
     

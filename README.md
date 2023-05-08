@@ -1,13 +1,12 @@
 # Lingo
 
 > give your LLM superpowers  
-> Lingo is the perfect syntax for [Hyv](https://github.com/failfa-st/hyv)
 
 
 [![Discord](https://img.shields.io/discord/1091306623819059300?color=7289da&label=Discord&logo=discord&logoColor=fff&style=for-the-badge)](https://discord.com/invite/m3TBB9XEkb)
 
 
-Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs.
+Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs. Lingo has been developed as a perfect syntax for [Hyv](https://github.com/failfa-st/hyv), a modular software development library focused on AI collaboration. Hyv streamlines the development process by breaking complex tasks into manageable pieces and offers an adaptable design that works with various technologies. By using Lingo with Hyv, developers can harness the full potential of AI-assisted software development, fostering efficient task management and a paradigm shift in the field.
 
 Lingo's syntax is highly extensible, allowing for the integration of new values and functions that adhere to its foundational principles. This flexibility ensures that Lingo remains adaptable to a wide range of tasks and use cases, making it an invaluable tool for working with LLMs.
 
@@ -17,12 +16,9 @@ Lingo's syntax is highly extensible, allowing for the integration of new values 
 
 -   **Expressive syntax**: Lingo's syntax is designed to be both concise and expressive, making it easy for users to define their requirements and for LLMs to interpret them accurately.
     
--   **Adaptable to various tasks**: Lingo can be applied to a wide range of tasks, from content generation to data manipulation, by simply extending its syntax to incorporate new values, functions, and constraints.
+-   **Extensible and adaptable framework**: Lingo's syntax can be easily extended to incorporate new values and functions, allowing it to adapt to a wide range of tasks and use cases. This extensibility ensures that Lingo remains versatile and relevant as LLM technology advances and user requirements evolve.
     
 -   **Improved output quality**: By providing LLMs with clear expectations and guidance, Lingo helps them generate more relevant and accurate outputs, reducing the need for manual fine-tuning or extensive user input.
-    
--   **Extensible framework**: Lingo's syntax can be easily extended to incorporate new values and functions, allowing it to adapt and evolve alongside advances in LLM technology and user requirements.
-    
 
 By harnessing the power of Lingo, users can effectively guide LLMs to produce outputs that better align with their goals, while reducing the amount of manual intervention required. The extensible nature of Lingo's syntax ensures that it remains a valuable and relevant tool for working with LLMs, both now and in the future.
 

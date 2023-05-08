@@ -28,13 +28,13 @@ By harnessing the power of Lingo, users can effectively guide LLMs to produce ou
 ```
 city: {
   name: "string",
-  popultion: "int"
+  population: "int"
   poi: "string[] *<=3"
 }
 random(<=3{{city}}):json
 ```
 
-![Screenshot 2023-05-08 at 17 28 26](https://user-images.githubusercontent.com/1148334/236865232-259fac97-e558-4ff5-9b60-f00da94b2841.png)
+![Screenshot 2023-05-08 at 23 04 43](https://user-images.githubusercontent.com/1148334/236934828-cbfaa623-1a1a-4261-b9d0-1c57d5b82ccf.png)
 
 ## Values
 

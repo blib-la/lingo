@@ -12,6 +12,17 @@ Large Language Models (LLMs) are a type of artificial intelligence model, specif
 
 Lingo's syntax is highly extensible, allowing for the integration of new values and functions that adhere to its foundational principles. This flexibility ensures that Lingo remains adaptable to a wide range of tasks and use cases, making it an invaluable tool for working with LLMs.
 
+**Try it yourself**:
+
+```
+city: {
+  name: "string",
+  popultion: "int"
+  poi: "string[] *<=3"
+}
+random(<=3{{city}}):json
+```
+
 ![Screenshot 2023-05-08 at 17 28 26](https://user-images.githubusercontent.com/1148334/236865232-259fac97-e558-4ff5-9b60-f00da94b2841.png)
 
 ## Key Features

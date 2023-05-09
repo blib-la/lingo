@@ -1,27 +1,22 @@
 # Lingo
   
 [![Discord](https://img.shields.io/discord/1091306623819059300?color=7289da&label=Discord&logo=discord&logoColor=fff&style=for-the-badge)](https://discord.com/invite/m3TBB9XEkb)
+> TL;DR:  
+> Lingo is a pseudo language that boosts language model capabilities with its expressive syntax, extensible framework, and improved output quality, facilitating seamless AI collaboration and efficient workflows in various use cases.
 
-> TL;DR  
-> Lingo is a pseudo language designed to enhance Large Language Models (LLMs) like GPT-3 and GPT-4, providing a versatile syntax to guide more accurate outputs. Developed for the Hyv software development library, Lingo facilitates AI collaboration and efficient task management. Lingo's expressive syntax and extensible framework improve output quality and adaptability in various use cases.
+Lingo is a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4, providing a versatile syntax that enables users to define expectations and constraints for more accurate and contextually relevant outputs. Featuring an extensible syntax, Lingo adapts to a wide range of tasks and use cases, offering expressive syntax, an adaptable framework, and improved output quality. By harnessing Lingo's power, users can effectively guide LLMs towards better-aligned outputs, making Lingo a valuable and relevant tool for working with LLMs.
 
-Introducing Lingo, a powerful pseudo language designed to enhance the capabilities of Large Language Models (LLMs) like GPT-3 and GPT-4. Lingo provides a versatile syntax that enables users to define expectations and constraints, guiding LLMs to produce more accurate and contextually relevant outputs. Lingo has been developed as a perfect syntax for [Hyv](https://github.com/failfa-st/hyv), a modular software development library focused on AI collaboration. Hyv streamlines the development process by breaking complex tasks into manageable pieces and offers an adaptable design that works with various technologies. By using Lingo with Hyv, developers can harness the full potential of AI-assisted software development, fostering efficient task management and a paradigm shift in the field.
+## Key features
 
-Large Language Models (LLMs) are a type of artificial intelligence model, specifically designed to process and generate natural language text. Among the most well-known LLMs are GPT-3 and GPT-4, developed by OpenAI. These models have achieved remarkable results in a variety of tasks, including text generation, summarization, translation, and question-answering. However, despite their impressive capabilities, LLMs may sometimes require guidance and constraints to produce contextually relevant and accurate outputs. This is where Lingo comes into play.
+🚀 **Expressive syntax**: Lingo's user-friendly syntax makes it easy for users to define their requirements and for LLMs to interpret them accurately.
 
-Lingo's syntax is highly extensible, allowing for the integration of new values and functions that adhere to its foundational principles. This flexibility ensures that Lingo remains adaptable to a wide range of tasks and use cases, making it an invaluable tool for working with LLMs.
+🌐 **Extensible and adaptable framework**: Lingo's syntax can be easily extended to incorporate new values and functions, making it versatile and ready to adapt to evolving LLM technology and user needs.
 
+🎯 **Improved output quality**: By providing LLMs with clear expectations and guidance, Lingo helps generate more relevant and accurate outputs, streamlining the process.
 
-## Key Features
+🤝 **AI collaboration**: Designed for seamless AI-assisted software development, Lingo fosters collaboration between humans and AI, creating a more efficient workflow.
 
--   **Expressive syntax**: Lingo's syntax is designed to be both concise and expressive, making it easy for users to define their requirements and for LLMs to interpret them accurately.
-    
--   **Extensible and adaptable framework**: Lingo's syntax can be easily extended to incorporate new values and functions, allowing it to adapt to a wide range of tasks and use cases. This extensibility ensures that Lingo remains versatile and relevant as LLM technology advances and user requirements evolve.
-    
--   **Improved output quality**: By providing LLMs with clear expectations and guidance, Lingo helps them generate more relevant and accurate outputs, reducing the need for manual fine-tuning or extensive user input.
-
-By harnessing the power of Lingo, users can effectively guide LLMs to produce outputs that better align with their goals, while reducing the amount of manual intervention required. The extensible nature of Lingo's syntax ensures that it remains a valuable and relevant tool for working with LLMs, both now and in the future.
-
+⚡ **Future-proof**: Lingo's adaptability ensures it remains a valuable and relevant tool for working with LLMs, both now and in the future.
 
 **Try it yourself**:
 
@@ -36,7 +31,11 @@ random(<=3{{city}}):json
 
 ![Screenshot 2023-05-08 at 23 04 43](https://user-images.githubusercontent.com/1148334/236934828-cbfaa623-1a1a-4261-b9d0-1c57d5b82ccf.png)
 
-## Values
+## Syntax
+
+Lingo, a flexible pseudo language, allows anyone to easily adapt and modify it at any time, encouraging creativity and meeting various needs for a wide audience.
+
+### Values
 
 -   `{{key}}`: This is a placeholder for a variable or input value that will be replaced with actual content when used.
 
@@ -62,7 +61,7 @@ random(<=3{{city}}):json
 
 -   `?{{key1}}:{{key2}}`: This syntax can be used for conditional expressions, where if the condition specified by `key1` is met, the generated content will include `key2`.
 
-## Keywords
+### Keywords
     
 -   `ANY`: This keyword can be used to indicate that any of the specified conditions or constraints can be met in the generated content, not necessarily all of them.
 
@@ -80,22 +79,22 @@ random(<=3{{city}}):json
     
 -   `UNIQUE`: This keyword is used to indicate that the generated content should be original and not duplicate any existing content.
 
-### Keyword functions
+### Functions
 
--   `BETWEEN({{key1}}, {{key2}})`: This syntax can be used to specify a range for a certain attribute or property, indicating that the generated content should have a value between `key1` and `key2`.
+-   `between({{key1}}, {{key2}})`: This syntax can be used to specify a range for a certain attribute or property, indicating that the generated content should have a value between `key1` and `key2`.
 
--   `RANDOM({{key1}}, {{key2}}, ...)`: This syntax can be used to specify that the generated content should include one of the provided keys at random.
+-   `random({{key1}}, {{key2}}, ...)`: This syntax can be used to specify that the generated content should include one of the provided keys at random.
 
--   `MIXED({{key1}}, {{key2}}, ...)`: This syntax can be used to specify that the generated content should include a combination of the provided keys.
+-   `mixed({{key1}}, {{key2}}, ...)`: This syntax can be used to specify that the generated content should include a combination of the provided keys.
 
--   `CONTAINS({{key}})`: This syntax can be used to indicate that the generated content must contain the specified key.
+-   `contains({{key}})`: This syntax can be used to indicate that the generated content must contain the specified key.
 
--   `OPTIMIZE({{key}})`: This syntax can be used to suggest that the generated content should optimize for a certain aspect, such as readability or keyword density, represented by the key.
+-   `optimize({{key}})`: This syntax can be used to suggest that the generated content should optimize for a certain aspect, such as readability or keyword density, represented by the key.
 
--   `LIMIT({{key}}, {{value}})`: This syntax can be used to set a limit on the number of times the specified key can appear in the generated content.
+-   `limit({{key}}, {{value}})`: This syntax can be used to set a limit on the number of times the specified key can appear in the generated content.
 
     
-## functions
+### Function Arguments
 
 -   `fn(-{{key}})`: This syntax represents a function `fn` that takes the value of `key` as an input and removes or subtracts it from the generated content.
     
@@ -107,17 +106,12 @@ random(<=3{{city}}):json
     
 -   `fn(~{{key}})`: This syntax represents a function `fn` that takes the value of `key` as an input and generates content with a length close to the value of `key`.
         
--   `fn(BETWEEN({{key1}}, {{key2}}))`: This syntax represents a function `fn` that takes the values of `key1` and `key2` as inputs and generates content with a value between `key1` and `key2`
+-   `fn(between({{key1}}, {{key2}}))`: This syntax represents a function `fn` that takes the values of `key1` and `key2` as inputs and generates content with a value between `key1` and `key2`
 
--   `fn(RANDOM({{key1}}, {{key2}}, ...))`: This syntax represents a function `fn` that takes multiple keys as inputs and generates content with one of the provided keys at random.
-
--   `fn(MIXED({{key1}}, {{key2}}, ...))`: This syntax represents a function `fn` that takes multiple keys as inputs and generates content with a combination of the provided keys.   
-    
--   `fn(CONTAINS({{key}}))`: This syntax represents a function `fn` that takes the value of `key` as an input and ensures the generated content contains the specified key.
-    
--   `fn(OPTIMIZE({{key}}))`: This syntax represents a function `fn` that takes the value of `key` as an input and generates content optimized for the specified aspect.
+-   `fn(random({{key1}}, {{key2}}, ...))`: This syntax represents a function `fn` that takes multiple keys as inputs and generates content with one of the provided keys at random.
         
--   `fn(LIMIT({{key}}, {{value}}))`: This syntax represents a function `fn` that takes the values of `key` and `value` as inputs and generates content with a limit on the number of times the specified key can appear.
+-   `fn(optimize({{key}}))`: This syntax represents a function `fn` that takes the value of `key` as an input and generates content optimized for the specified aspect.
+        
 
 ## Typing values
 
